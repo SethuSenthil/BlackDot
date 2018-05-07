@@ -12,11 +12,11 @@ window.setInterval(function(){
 document.getElementById('whatsapp').addEventListener('click', function(){
     var openedWindow = window.open('whatsapp://send?text=' + document.getElementById('result').innerText + '&phone=');
     setTimeout(function() {
-      openedWindow.close();
+      openedWindow.close(); //closes window after trigger 
     }, 3000);
 });
 document.getElementById('rcs').addEventListener('click', function(){
-    var openedWindow = window.open('sms://?body='+ document.getElementById('result').innerText);
+    var openedWindow = window.open('sms:+10000000000?//?body='+ document.getElementById('result').innerText);
     setTimeout(function() {
       openedWindow.close();
     }, 3000);

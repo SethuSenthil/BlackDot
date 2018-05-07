@@ -36,3 +36,8 @@ input[type="text"]:hover, textarea :hover,input[type="text"]:active, textarea :a
     border-radius:30px !important;
   
   }
+
+  footer{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+  }
