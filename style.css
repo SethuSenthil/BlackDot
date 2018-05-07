@@ -1,0 +1,38 @@
+
+.dot{
+    font-size: 50px !important;
+    -webkit-transition-duration:.5s;
+    transition-duration:.5s
+}
+.brand-logo{
+    -webkit-transition-duration:.5s;
+    transition-duration:.5s
+}
+.brand-logo:hover{
+    color: black;
+}
+.brand-logo:hover .dot{
+    color: white !important;
+}
+.color{
+    background-color: #db3236 !important;
+}
+.btn{
+    border-radius: 15px;
+} 
+.card-panel{
+    border-radius: 30px;
+}
+input[type="text"], textarea{
+
+    -webkit-transition-duration:.5s !important;
+    transition-duration:.5s !important;
+  
+  }
+
+input[type="text"]:hover, textarea :hover,input[type="text"]:active, textarea :active{
+
+    background-color : rgb(128,128,128,0.5) !important; 
+    border-radius:30px !important;
+  
+  }
