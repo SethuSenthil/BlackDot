@@ -11,12 +11,14 @@ window.setInterval(function(){
 
 document.getElementById('whatsapp').addEventListener('click', function(){
     var openedWindow = window.open('whatsapp://send?text=' + document.getElementById('result').innerText + '&phone=');
+    M.toast({html: 'Sending on Whatsapp...', classes: 'rounded gfont'});
     setTimeout(function() {
       openedWindow.close(); //closes window after trigger 
     }, 3000);
 });
 document.getElementById('rcs').addEventListener('click', function(){
     var openedWindow = window.open('sms:+10000000000?//?body='+ document.getElementById('result').innerText);
+    M.toast({html: 'Sending on Messages...', classes: 'rounded gfont'});
     setTimeout(function() {
       openedWindow.close();
     }, 3000);

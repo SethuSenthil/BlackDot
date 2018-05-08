@@ -17,8 +17,8 @@
                 <div class="nav-wrapper red lighten-1">
                   <a href="#" class="brand-logo center gfont"><span class="black-text">Black</span> Dot <span class="black-text dot">.</span></a>
                   <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="badges.html">Whatsapp Memo</a></li>
-                    <li><a href="collapsible.html">WhatsappQuic</a></li>
+                    <li><a href="https://sethusenthil.com/WhatsApp-Memo">Whatsapp Memo</a></li>
+                    <li><a href="https://sethusenthil.com/WhatsAppQuic/">WhatsappQuic</a></li>
                   </ul>
                 </div>
               </nav>
@@ -45,7 +45,7 @@
 
 <p class="gfont wow bounceIn" id=result data-wow-delay="1s" ></p>
 <br>
-<a  id='copy' data-clipboard-target="#result" class="waves-effect waves-light btn red lighten-1"><i class="material-icons left">content_copy</i>Copy</a>
+<a  id='copy'onclick="M.toast({html: 'Copied!' , classes: 'rounded gfont'})"  data-clipboard-target="#result" class="waves-effect waves-light btn red lighten-1"><i class="material-icons left">content_copy</i>Copy</a>
 <a id="whatsapp"class="waves-effect waves-light btn teal"><i class="fab fa-whatsapp"></i> Send on Whatsapp</a>
 <br> <br>
 <a id="rcs"class="waves-effect waves-light btn  indigo darken-1"><i class="material-icons left">message</i> Send on messages</a>
@@ -91,11 +91,15 @@
                     <td>Mobile</td>
                     <td class="">Unknown</td>
                   </tr>
+                  <tr>
+                    <td>Chrome OS</td>
+                    <td>Desktop</td>
+                    <td class="green-text">No</td>
+                  </tr>
         </tbody>
       </table>
             <h2>How does this work?</h2>
-            <iframe class="wow slideInUp"width="560" height="315" src="https://www.youtube-nocookie.com/embed/jC4NNUYIIdM?rel=0" frameborder="0" allow="autoplay; encrypted-media" style="border:8.7px solid #000; border-radius: 8.7px; width: auto !important; height: auto !important;" allowfullscreen></iframe>
-
+            <video class = " wow slideInUp video responsive-video z-depth-3" controls src="https://storage.googleapis.com/smartcamm/%E2%9A%AB.mp4"></video>
 </center>
 <blockquote>
         Video by <a href="https://www.tomscott.com/">Tom Scott</a> 
@@ -115,7 +119,7 @@
               <ul>
                 <li><a class="grey-text text-lighten-3" onclick="twitter()"><i class="fab fa-twitter fa-2x"></i></a></li>
                 <li><a class="grey-text text-lighten-3" onclick="insta()"><i class="fab fa-instagram fa-2x"></i></a></li>
-                <li><a class="grey-text text-lighten-3" href="med()"><i class="fab fa-medium fa-2x"></i></a></li>
+                <li><a class="grey-text text-lighten-3" onclick="med()"><i class="fab fa-medium fa-2x"></i></a></li>
               </ul>
             </div>
           </div>
