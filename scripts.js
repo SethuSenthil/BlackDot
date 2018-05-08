@@ -1,5 +1,9 @@
 new ClipboardJS('#copy');
 
+if (window.matchMedia('(display-mode: standalone)').matches) {
+    document.getElementsByClassName('jsdown').innerHTML = "<br>";
+} 
+
 //runs function every 100 ms
 window.setInterval(function(){
   var touchPart = document.getElementById('partTouch').value;
