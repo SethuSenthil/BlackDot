@@ -51,7 +51,7 @@ document.getElementById('whatsapp').addEventListener('click', function () {
     }, 3000);
 });
 document.getElementById('rcs').addEventListener('click', function () {
-    var openedWindow = window.open('sms:+10000000000?//?body=' + document.getElementById('result').innerText);
+    var openedWindow = window.open('sms:?body=' + document.getElementById('result').innerText);
     M.toast({ html: 'Sending on Messages...', classes: 'rounded gfont' });
     setTimeout(function () {
         openedWindow.close();
