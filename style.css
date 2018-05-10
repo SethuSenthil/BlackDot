@@ -1,54 +1,68 @@
-
-.dot{
+.dot {
     font-size: 50px !important;
-    -webkit-transition-duration:.5s;
-    transition-duration:.5s
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s
 }
-.brand-logo{
-    -webkit-transition-duration:.5s;
-    transition-duration:.5s
+
+.brand-logo {
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s
 }
-.brand-logo:hover{
+
+.brand-logo:hover {
     color: black;
 }
-.brand-logo:hover .dot{
+
+.brand-logo:hover .dot {
     color: white !important;
 }
-.color{
+
+.color {
     background-color: #db3236 !important;
 }
-.btn{
+
+.btn {
     border-radius: 15px;
-} 
-.card-panel{
+}
+
+.card-panel {
     border-radius: 30px;
 }
-input[type="text"], textarea{
 
-    -webkit-transition-duration:.5s !important;
-    transition-duration:.5s !important;
-  
-  }
+input[type="text"],
+textarea {
+    -webkit-transition-duration: .5s !important;
+    transition-duration: .5s !important;
+}
 
-input[type="text"]:hover, textarea :hover,input[type="text"]:active, textarea :active{
+input[type="text"]:hover,
+textarea :hover,
+input[type="text"]:active,
+textarea :active {
+    background-color: rgb(128, 128, 128, 0.5) !important;
+    border-radius: 30px !important;
+}
 
-    background-color : rgb(128,128,128,0.5) !important; 
-    border-radius:30px !important;
-  
-  }
+footer {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
-  footer{
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-  }
-  .video{
-      max-height: 800px;
-      border-radius: 15px;
-  }
+.video {
+    max-height: 800px;
+    border-radius: 15px;
+}
+
 ::-moz-selection {
-    background-color: rgba(255,0,0,0.0);;
+    background-color: rgba(255, 0, 0, 0.0);
+    ;
 }
 
 ::selection {
-    background-color: rgba(255,0,0,0.0);;
+    background-color: rgba(255, 0, 0, 0.0);
+    ;
+}
+
+.range-field {
+    max-width: 200px;
 }
