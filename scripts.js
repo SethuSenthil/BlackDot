@@ -15,7 +15,7 @@ var isMobile = {
     }
 };
 
-if (isMobile.iOS()) document.getElementById('kkjdn').checked = false, document.getElementById('mname').innerText = 'iMessage';
+if (isMobile.iOS()) document.getElementById('kkjdn').checked = false, document.getElementsByClassName('onlyiOS').style.display = 'block';
 if (isMobile.Android()) document.getElementById('kkjdn').checked = true
 
 

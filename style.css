@@ -8,7 +8,9 @@
     -webkit-transition-duration: .5s;
     transition-duration: .5s
 }
-
+.onlyiOS{
+    display: none;
+}
 .brand-logo:hover {
     color: black;
 }
